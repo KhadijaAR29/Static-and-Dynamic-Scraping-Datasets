@@ -1,4 +1,4 @@
-# GameVault & StyleHub Scraping — CS4048 Assignment 1 (Version A)
+# GameVault & StyleHub Scraping 
 
 Datasets produced by two web scrapers built for FAST-NUCES Data Science Assignment 1 (Web Scraping): a static scraper for GameVault's full product catalog, and a dynamic (Selenium/Playwright) scraper for StyleHub's infinite-scroll landing page prototype.
 
@@ -22,6 +22,4 @@ Datasets produced by two web scrapers built for FAST-NUCES Data Science Assignme
 - **Dynamic scraper**: Selenium with explicit waits (`WebDriverWait`) on DOM element count rather than fixed sleeps; deduplicated by detail URL to handle repeated elements during scroll re-rendering; batch number records when each product first appeared.
 - Full methodology, validation statistics, and a Selenium vs. Playwright comparison are documented in the notebook.
 
-## Disclosure
 
-Built as coursework for CS4048 (Data Science), FAST School of Computing, FAST-NUCES Lahore. Target sites are public scraping-practice sandboxes (Oxylabs Sandbox, ScrapingCourse.com) intended for this purpose.
