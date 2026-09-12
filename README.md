@@ -1,4 +1,4 @@
-# GameVault & StyleHub Scraping 
+# GameVault & StyleHub Scraping  
 
 Datasets produced by two web scrapers built for FAST-NUCES Data Science Assignment 1 (Web Scraping): a static scraper for GameVault's full product catalog, and a dynamic (Selenium/Playwright) scraper for StyleHub's infinite-scroll landing page prototype.
 
